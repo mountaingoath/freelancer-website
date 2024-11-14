@@ -28,7 +28,8 @@ body {
     box-shadow: 8px 8px 15px 0px rgba(148,145,148,0.78);
     background-color: var(--clear);
     padding: 2rem;
-
+    border-radius: 2rem;
+    
 }
 
 .contenedor {
@@ -132,4 +133,52 @@ h1, h2, h3 {
 .content-hero h2,
 .content-hero p {
     color: var(--clear);
+}
+
+/* Services */
+
+@media (min-width: 768px) {
+    .services {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 10px;
+    }
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.service h3 {
+    color: var(--secondary);
+    font-weight: 400;
+}
+
+.service p {
+    line-height: 2;
+    text-align: center;
+}
+
+.service .icons {
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--main);
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; /* vertical lining */
+}
+
+/*Contact me */
+
+.form {
+    background-color: var(--symbol);
+    width: min(); /*uses the min value */
+}
+
+.form fieldset {
+    border: none;
 }
