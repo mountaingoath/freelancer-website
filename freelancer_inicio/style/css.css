@@ -176,9 +176,22 @@ h1, h2, h3 {
 
 .form {
     background-color: var(--symbol);
-    width: min(); /*uses the min value */
+    width: min(60rem, 100%); /*uses the min value */
+    margin: 0 auto; /*bc there's no dispplay-flex*/
+    padding: 2rem;
+    border-radius: 1rem;
+
 }
 
 .form fieldset {
     border: none;
+}
+
+.form legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--main);
 }
