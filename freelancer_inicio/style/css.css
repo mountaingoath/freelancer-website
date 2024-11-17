@@ -55,6 +55,7 @@ body {
 @media (min-width: 480px) {
     .button {
         width: auto;
+        margin-bottom: 1rem;
     }
 }
 
