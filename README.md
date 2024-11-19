@@ -22,6 +22,7 @@ A form to collect user details, including name, phone number, email, and a messa
 Displays copyright information.
 
 Technologies Used
+
 HTML5: For structure and semantic markup.
 CSS3: For styling, including a custom color palette and responsiveness.
 Google Fonts: Utilizes the "Poppins" font family for modern typography.
@@ -38,6 +39,7 @@ project-folder/
     └── hero.jpg          # Background image for the hero section
 
 How to Use
+
 Clone the Repository
   git clone https://github.com/your-username/web-design-freelancer.git
   cd web-design-freelancer
@@ -47,12 +49,14 @@ Customize
 Modify the index.html or style/css.css files to update content and design as needed.
 
 Future Improvements
+
 Add more interactivity using JavaScript.
 Include a blog section for portfolio updates.
 Enhance responsiveness for wider range of devices.
 Integrate backend for dynamic form submissions.
 
 License
+
 This project is open-source and available under the MIT License.
 
 Feel free to use, modify, and distribute the code as needed.
