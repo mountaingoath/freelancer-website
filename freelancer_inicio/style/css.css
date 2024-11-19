@@ -10,6 +10,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
 
 *, *:before, *:after {
@@ -55,7 +56,6 @@ body {
 @media (min-width: 480px) {
     .button {
         width: auto;
-        margin-bottom: 1rem;
     }
 }
 
@@ -87,14 +87,17 @@ h1, h2, h3 {
 .nav-bg {
     background-color: var(--symbol);
 }
+
 @media (min-width: 768px) {
     .w-100 {
         width: auto;
     }
 }
+
 .flex {
     display: flex;
 }
+
 .right-align {
     justify-content: flex-end;
 }
@@ -153,6 +156,14 @@ h1, h2, h3 {
 }
 
 /* Services */
+
+/*scroll */
+.services,
+.main-nav,
+.form {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
 
 @media (min-width: 768px) {
     .services {
