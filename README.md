@@ -1,6 +1,7 @@
 README for Web Design Freelancer Portfolio
 
 Overview
+
 This project is a simple, responsive web page designed for a freelance web designer named Cinthya Lopez. It showcases services, contact information, and a professional layout built using HTML and CSS. The design emphasizes accessibility, responsiveness, and clean aesthetics.
 
 Features
